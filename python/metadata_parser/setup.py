@@ -14,5 +14,5 @@ setup(
     author = "Daniel Jones",
     author_email = "dajones716@gmail.com",
     description = ("Utility for parsing music metadata"),
-    packages=['metadata', 'parser'],
+    packages=['metadata'],
 )
