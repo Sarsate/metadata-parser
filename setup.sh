@@ -7,7 +7,7 @@ fi
 
 TOP_DIR=$(cd $(dirname "$0") && pwd)
 
-apt-get install python-mutagen vorbis-tools
+apt-get install python-mutagen vorbis-tools python-settuptools
 
 cd $TOP_DIR/python/metadata_parser/
 python setup.py install
